@@ -7,6 +7,8 @@ Gel's folder structure is based on Vercel serverless functions projects one. It 
 - frontend folder: contains a vite project scafolded with the framework of your choice. Are available at the moment React and Svelte
 - public folder: contains the output build of your frontend project
 
+Download the pre release here:
+https://github.com/TheWisePigeon/releases/releases/tag/cli
 
 ### What to do after creating a new Gel project.
 First you want to run 
