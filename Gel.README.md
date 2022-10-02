@@ -52,6 +52,5 @@ Make sure that all your functions start with a capital letter so that they get e
 
 Don't mind opening an issue at the first bug you face :).
 
-Here is an example of a basic url shortener app I wrote. You may check it out for reference.
+Here is an example of a basic url shortener app I wrote. You may check it out [here](https://gist.github.com/TheWisePigeon/33ee0fbd8c1d1e9cb068e122b8def93e) for reference
 
-[<script src="https://gist.github.com/hSATAC/5343225.js"></script>](https://gist.github.com/TheWisePigeon/33ee0fbd8c1d1e9cb068e122b8def93e)
