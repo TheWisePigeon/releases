@@ -54,5 +54,4 @@ Don't mind opening an issue at the first bug you face :).
 
 Here is an example of a basic url shortener app I wrote. You may check it out for reference.
 
-<script src="https://gist.github.com/hSATAC/5343225.js">
-</script>
+[<script src="https://gist.github.com/hSATAC/5343225.js"></script>](https://gist.github.com/TheWisePigeon/33ee0fbd8c1d1e9cb068e122b8def93e)
