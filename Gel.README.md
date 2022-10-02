@@ -20,16 +20,34 @@ Once the deployment successful, you can start using your serverless functions an
 Each .go file stands as an endpoint. It contains a function that handles a http request
 ```go
 package api
+
 import (
-    "fmt"
-    "net/http"
+	// "encoding/json"
+	"fmt"
+	"net/http"
+	// "encoding/json"
 )
 
+type JsonResponse struct {
+    Message string
+    HttpCode int
+    Failed bool
+}
+
+
 func Handler(w http.ResponseWriter, req *http.Request){
-    fmt.FPrintf(w, "<h1>Hey from Go :)</h1>")
+	fmt.Fprintf(w, "<h1>Hi from Go :)</h1>")
+	// u, err := json.Marshal(JsonResponse{Message: "Hello gopher :)", HttpCode: 200, Failed: false})
+    //     if err != nil {
+    //         panic(err)
+    //     }
+	// w.Header().Set("Content-Type", "application/json")
+	// json.NewEncoder(w).Encode(u) 
 }
 
 ```
 Make sure that all your functions start with a capital letter so that they get exported.
 
 Don't mind opening an issue at the first bug you face :).
+
+<script src="https://gist.github.com/hSATAC/5343225.js"></script>
