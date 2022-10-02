@@ -7,6 +7,8 @@ Gel's folder structure is based on Vercel serverless functions projects one. It 
 - frontend folder: contains a vite project scafolded with the framework of your choice. Are available at the moment React and Svelte
 - public folder: contains the output build of your frontend project
 
+Download the pre release here:
+https://github.com/TheWisePigeon/releases/releases/tag/cli
 
 ### What to do after creating a new Gel project.
 First you want to run 
@@ -49,5 +51,7 @@ func Handler(w http.ResponseWriter, req *http.Request){
 Make sure that all your functions start with a capital letter so that they get exported.
 
 Don't mind opening an issue at the first bug you face :).
+
+Here is an example of a basic url shortener app I wrote. You may check it out for reference.
 
 <script src="https://gist.github.com/hSATAC/5343225.js"></script>
